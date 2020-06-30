@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav > ul{
+  background-color: transparent;
+  height:60px;
+  margin-top: 19px;
+}
+nav > ul > li{
+  text-decoration: none;
+  display: inline;
+  padding: 12px;
+}
+nav > ul >li > a {
+  text-decoration: none;
+  color: black;
+  margin-top: 12px;
+}
+
+nav > ul > li > a:hover{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  transition-duration: 2s;
+}
+.navbar > a:hover{
+  text-decoration: none;
+}
+
+.navbar > a > .logo:hover{
+  color: red;
+}
+
+.navbar > a > .logo > span:hover{
+  color: blue;
+}
+.s1{
+  color: #fff;
+  margin-top: 122px;
+}
+.body_section button:hover{
+  background-color: #818198;
+  transition-duration: 2s;
+  color: black;
+}
